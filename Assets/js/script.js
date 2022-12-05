@@ -76,7 +76,8 @@ function getWeather(cityName) {
           var card = $("<div class = 'card col-sm-2'>")
 
           var div1 = $("<div class= 'card-header'>")
-          div1.append("Date" + '' + currentDate)
+          // div1.append("Date" + '' + currentDate)
+          div1.append(currentDate)
           card.append(div1)
           // $("#current-weather").append("<img src='http://openweathermap.org/img/wn/"+response.weather[0].icon+"@2x.png'>")
           var div2 = $("<div class= 'card-body'>")
