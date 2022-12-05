@@ -1,5 +1,5 @@
 //global variables
-var apiKey = "843fa40ad68a96668befb0da86d9b44b"
+var apiKey = "7be2e33ad83ec6e41f74c3ee79ca1b8c"
 var city = "raleigh"
 var currentConditions = "https://api.openweathermap.org/data/2.5/weather?appid="
 var fiveDay =
